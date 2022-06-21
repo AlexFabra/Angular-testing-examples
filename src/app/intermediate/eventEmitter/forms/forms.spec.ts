@@ -19,4 +19,18 @@ describe('form tests', () => {
         expect(form.form.contains('pwd')).toBeTruthy();
     })
 
+    it('email required',()=>{
+        const ctrl = form.form.get('email');
+        ctrl?.setValue('');
+        expect(ctrl?.valid).toBeFalsy();
+    })
+
+    it('email valid',()=>{
+        const ctrl = form.form.get('email');
+        ctrl?.setValue('alex@gmail.com');
+        expect(ctrl?.valid).toBeTruthy();
+        ctrl?.setValue('alex@');
+        expect(ctrl?.valid).toBeFalsy();
+    })
+
 })

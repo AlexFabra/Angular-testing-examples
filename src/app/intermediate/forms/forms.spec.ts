@@ -2,7 +2,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 import { registerForm } from './forms';
 
-describe('form tests', () => {
+xdescribe('form tests', () => {
 
     let form: registerForm;
     

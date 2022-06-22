@@ -24,9 +24,9 @@ export class DoctorComponent implements OnInit {
   }
 
   addDoctor() {
-    const medico = { nombre: 'Doctor Giovanni Anninuovo' };
+    const doctor = { id:1,name: 'Doctor Giovanni Anninuovo' };
 
-    this._doctorService.addDoctor(medico)
+    this._doctorService.addDoctor(doctor)
       .subscribe(
         (medicoDB: any) => {
           this.doctors.push(medicoDB),

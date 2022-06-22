@@ -1,6 +1,6 @@
 import { Cat } from "./eventEmitter";
 
-describe('eventEmitter test', () => {
+xdescribe('eventEmitter test', () => {
     let cat: Cat;
 
     beforeEach(() => 

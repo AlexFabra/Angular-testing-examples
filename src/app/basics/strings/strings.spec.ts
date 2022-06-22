@@ -1,6 +1,6 @@
 import { menssage } from './strings';
 
-xdescribe('string tests', () => {
+describe('string tests', () => {
 
     it('should return greeting', () => {
         const name = 'John';

@@ -5,7 +5,7 @@ import { DoctorsService } from './doctors.service';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 
-xdescribe('DoctorComponent', () => {
+describe('DoctorComponent', () => {
 
     let component: DoctorComponent;
     let service: DoctorsService;

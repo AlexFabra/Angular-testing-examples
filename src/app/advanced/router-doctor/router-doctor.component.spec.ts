@@ -52,6 +52,5 @@ describe('RouterDoctorComponent', () => {
     (<FakeActivatedRoute>(<any>activatedRoute)).push({id:'new'});
     expect(component.id).toBe('new')
   })
-  
 
 });

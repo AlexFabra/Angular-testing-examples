@@ -1,6 +1,6 @@
 import { Person } from './class';
 
-xdescribe('class tests',()=>{
+describe('class tests',()=>{
 
     let reusablePerson = new Person(100);
 

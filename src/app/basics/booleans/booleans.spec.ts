@@ -1,6 +1,6 @@
 import { loggedUser } from './booleans';
 
-xdescribe('boolean tests', () => {
+describe('boolean tests', () => {
     it('should return true', () => {
         const result = loggedUser();
         expect(result).toBeTruthy();

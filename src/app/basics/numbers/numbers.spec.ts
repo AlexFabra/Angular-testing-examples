@@ -1,6 +1,6 @@
 import { increment } from './numbers';
 
-xdescribe('number tests',()=>{
+describe('number tests',()=>{
 
     it('should return 100 if n>100',()=>{
         const n = 101;

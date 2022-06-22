@@ -1,15 +1,15 @@
 import { obtainElements } from './arrays';
 
-xdescribe('array tests', () => {
+describe('array tests', () => {
 
     it('should return a minimum of 3 elements', () => {
         const result = obtainElements();
-        expect(result).toBeGreaterThan(2);
+        expect(result.length).toBeGreaterThan(2);
     })
 
     it('should return a maximum of 5 elements', () => {
         const result = obtainElements();
-        expect(result).toBeLessThan(6);
+        expect(result.length).toBeLessThan(6);
     })
 
     // it('should contain 5 elements', () => {
